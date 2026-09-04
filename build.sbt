@@ -70,7 +70,7 @@ val enumeratumDeps = Seq("com.beachape" %% "enumeratum" % "1.9.8")
 // (META-INF/resources/webjars/scalar/scalar.js), so no version needs threading into code.
 // Used purely as a webjar for that asset, not for its Java rendering API (which needs
 // jackson-databind at runtime; this project has none).
-val scalarApiReferenceVersion = "0.6.54"
+val scalarApiReferenceVersion = "0.6.65"
 val scalarApiReferenceDeps = Seq("com.scalar.maven" % "scalar-core" % scalarApiReferenceVersion)
 
 val pureconfigDeps = Seq(
