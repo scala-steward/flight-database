@@ -84,7 +84,7 @@ val flywayDeps = Seq(
 )
 
 val loggingDeps = Seq("com.typesafe.scala-logging" %% "scala-logging" % "3.9.6")
-val loggingRuntimeDeps = Seq("org.slf4j"           % "slf4j-reload4j" % "2.0.18") // binding — app only
+val loggingRuntimeDeps = Seq("org.slf4j"           % "slf4j-reload4j" % "2.0.19") // binding — app only
 
 val commonsIoDeps = Seq("commons-io" % "commons-io" % "2.22.0")
 val icuDeps = Seq("com.ibm.icu"      % "icu4j"      % "78.3")
