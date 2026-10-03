@@ -100,7 +100,7 @@ val testkitDeps = catsCoreDeps ++ Seq(
 val testingDeps = Seq(
   "org.scalactic" %% "scalactic" % scalaTestVersion % Test,
   "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
-  "org.scalamock" %% "scalamock" % "7.5.5"          % Test
+  "org.scalamock" %% "scalamock" % "7.6.0"          % Test
 )
 
 val itDeps = Seq(
