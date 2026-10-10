@@ -29,7 +29,7 @@ val circeVersion = "0.14.16"
 val doobieVersion = "1.0.0-RC13"
 val http4sVersion = "0.23.35"
 val pureconfigVersion = "0.17.10"
-val flywayVersion = "12.10.0"
+val flywayVersion = "12.11.0"
 val scalaTestVersion = "3.2.20"
 val testcontainersVersion = "0.44.1"
 
